@@ -1,0 +1,135 @@
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+body {
+    background-image: url("../img/bg-preto-inc.png");
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 3%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.container-filter { 
+	padding: 0%;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1.5px;
+	border-color: #FF7D00;
+	background-color: #fff;
+}
+
+.container-list {
+	padding: 0%;
+	margin-top: 1.5%;
+}
+
+.content {
+    margin: auto;
+    padding: 1%;
+}
+
+.form-group {
+    margin: 0%;
+    padding: 1%;
+}
+
+.title-form {
+	height: 3em;
+	background-color: #FF7D00;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 2%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FF7D00;
+}
+
+.title-form h6 {
+	margin-top: 12px;
+	font-weight: bold;
+	font-size: medium;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+label {
+	font-size: large;
+}
+
+table {
+	border-radius: 5px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 20px 20px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+td {
+	font-size: small;
+	padding: 0;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: #000000;
+}
+
+th {
+	margin: 0%;
+	padding: 0%;
+	align-items: center;
+	text-align: left;
+	font-size: small;
+}
+
+thead {
+	background-color: #FF7D00;
+
+}
+tr:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+input {
+    border: 2px solid transparent;
+    width: 15em;
+    height: 2.2em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+    position: relative;
+  }
+  
+input:hover,
+input:focus {
+    border: 1px solid #FF7D00;
+    box-shadow: 0px 0px 0px 2px #cf8c4e;
+    background-color: white;
+  }
+
+.text-alert {
+	font-size: x-small;
+	color: rgb(168, 47, 47);
+	border-radius: rounded-full;
+}
+
+.button {
+    height: 30px;
+    width: 200px;
+    position: relative;
+    background-color: #FF7D00;
+    cursor: pointer;
+    border: 2px solid #FF7D00;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #000000;
+    transition: all 0.5s ease-in-out;
+}
+  
+ 
